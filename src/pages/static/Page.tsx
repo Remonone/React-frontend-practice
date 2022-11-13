@@ -1,11 +1,13 @@
 import React from 'react'
+import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
 
 const Page = (props: {element: React.ReactNode}) => {
   return (
     <div>
-        <div>Header</div>
+        <Header/>
         {props.element}
-        <div>Footer</div>
+        <Footer/>
     </div>
   )
 }
