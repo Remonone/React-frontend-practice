@@ -1,8 +1,11 @@
 import React from 'react'
+import Button from '../Button/Button'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div>
+      <Button variant='outlined' type='submit'>Read More</Button>
+    </div>
   )
 }
 

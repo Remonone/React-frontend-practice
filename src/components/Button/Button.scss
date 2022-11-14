@@ -1,0 +1,42 @@
+@import '../../utils/colors.scss';
+
+.btn{
+    padding: 8px 32px;
+    font-family: "Cormorant Garamond";
+    font-weight: 600;
+    font-size: 16px;
+    transition: .3s;
+    border: none;
+    cursor: pointer;
+    &.filled{
+        background: $primary;
+        color: #000;
+        border: 1px solid $primary;
+        &:hover{
+            background: $hover;
+            border: 1px solid $hover;
+            
+        }
+        &:focus{
+            background: $focus;
+            border: 1px solid $focus;
+        }
+    }
+    &.outlined{
+        background: transparent;
+        border: 1px solid $primary;
+        color: $link;
+        &:hover{
+            background: $primary;
+        }
+        &:focus{
+            background: $focus;
+            border: 1px solid $focus;
+        }
+    }
+    &.empty{
+        background: transparent;
+        color: $link;
+        border: none;
+    }
+}
