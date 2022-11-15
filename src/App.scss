@@ -1,0 +1,19 @@
+@import './utils/colors.scss';
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root > div{
+    display: flex;
+    flex-direction: column;
+    background-color: $background;
+    min-height: 100vh;
+}
+
+main{
+    background-image: url('../public/images/wave.png');
+    flex: 1;
+}

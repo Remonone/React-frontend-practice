@@ -4,3 +4,8 @@ export interface IButton{
     children?: any
     type?: 'button' | 'submit' | 'reset' 
 }
+
+export interface IInput{
+    label?: string
+    type?: 'date' | 'text' | 'number'
+}
